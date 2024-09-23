@@ -127,50 +127,7 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
       STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
     },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT:
-        '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
-    },
-    {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
-      STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
-    }
+    
   ],
 
   //   FAQ 常见问题模块
@@ -357,6 +314,17 @@ const CONFIG = {
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
   STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
   STARTER_404_BACK: '回到主页',
+
+  // 页面底部的行动呼吁模块
+  STARTER_CTA_ENABLE: true,
+  STARTER_CTA_TITLE: '你还在等待什么呢？',
+  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_DESCRIOTN:
+    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+  STARTER_CTA_BUTTON: true, // 是否显示按钮
+  STARTER_CTA_BUTTON_URL:
+    'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+  STARTER_CTA_BUTTON_TEXT: '开始体验',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
