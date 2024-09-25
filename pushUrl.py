@@ -93,4 +93,4 @@ if __name__ == '__main__':
                 push_to_baidu(args.url, urls, args.baidu_token)
     else:
         print('请前往 Github Action Secrets 配置 URL')
-        print('详情参见: https://ghlcode.cn/fe032806-5362-4d82-b746-a0b26ce8b9d9')
+      
